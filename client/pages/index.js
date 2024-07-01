@@ -1,5 +1,6 @@
 import React from "react";
 import { IoSettingsOutline } from "react-icons/io5";
+import { IoIosSearch } from "react-icons/io";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       </div>
       <div className='w-full bg-darkgrey-500 flex items-center justify-end'>
         <div class='w-6 h-6 bg-darkgrey-500 mr-6'>
-          <IoSettingsOutline className='h-full w-full text-chatwhite hover:cursor-pointer'/>
+          <IoIosSearch className='h-full w-full text-chatwhite hover:cursor-pointer'/>
         </div>
       </div>
     </div>
