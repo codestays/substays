@@ -17,6 +17,7 @@ module.exports = {
         chatgreen: '#00A67E',
         lightgrey: '#3C3C3C',
         chatwhite: '#E5E5E5',
+        greylight: '#959595'
       },
     },
   },
