@@ -23,13 +23,15 @@ const Post = () => {
             <div className='w-full bg-none-500 font-thin mt-0 hover: cursor-pointer'>
                 life is a special occassion! Every single person in this world has a purpose in their live. :)
             </div>
-            <div className='border border-greylight border-opacity-25 h-52 bg-none-500 mt-2 rounded-xl hover: cursor-pointer'></div>
-            <div className='bg-none-500 flex flex-row items-center mt-2'>
-                <div class='w-4 h-4 bg-darkgrey flex flex-col justify-center hover:cursor-pointer'>
-                    <div className='h-1/5 bg-greylight rounded-lg mb-1'></div>
-                    <div className='h-1/6 bg-greylight rounded-lg mb-1'></div>
+            {/* <div>
+                <div className='border border-greylight border-opacity-25 h-52 bg-none-500 mt-2 rounded-xl hover: cursor-pointer'></div>
+                <div className='bg-none-500 flex flex-row items-center mt-2'>
+                    <div class='w-4 h-4 bg-darkgrey flex flex-col justify-center hover:cursor-pointer'>
+                        <div className='h-1/5 bg-greylight rounded-lg mb-1'></div>
+                        <div className='h-1/6 bg-greylight rounded-lg mb-1'></div>
+                    </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
   )

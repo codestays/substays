@@ -12,12 +12,16 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      boxShadow: {
+        stayshadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2)',
+      },
       colors: {
         darkgrey: '#2B2B2B',
-        chatgreen: '#00A67E',
+        chatgreen: '#76ABAE',
         lightgrey: '#3C3C3C',
         chatwhite: '#E5E5E5',
-        greylight: '#959595'
+        greylight: '#959595',
+        blackchat: '#31363F',
       },
     },
   },
