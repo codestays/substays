@@ -19,7 +19,7 @@ const Footer = () => {
                             <div className='bg-chatwhite bg-opacity-90 h-1.5 w-ful rounded-lg'></div>
                         </div>
                     </div>
-                    <div className='bg-none-500 text-xl hover:cursor-pointer '>
+                    <div className={`${open ? 'relative ml-36' : 'relative'} bg-none-500 text-xl hover:cursor-pointer ease-in-out duration-500`}>
                         substays
                     </div>
                 </div>

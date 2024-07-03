@@ -1,9 +1,8 @@
 import React, {useState} from "react";
 
 export default function SideBar({props}){
-    const [close, setClose] = useState(!false);
     return (
-        <div className={`${props ? 'hidden' : ''}bg-black h-full w-80 fixed flex justify-between`}>
+        <div className={`${props ? 'translate-x-0 ' : '-translate-x-full '}bg-lightgrey h-full w-80 fixed flex ease-in-out duration-300`}>
         </div>
     );
 }

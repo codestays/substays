@@ -9,6 +9,8 @@ export default function Home() {
       {/* <Navbar/>
       <Post/> */}
       <Footer/>
+
+      
     </div>
     
   );
