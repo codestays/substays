@@ -16,7 +16,7 @@ module.exports = {
         stayshadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2)',
       },
       colors: {
-        darkgrey: '#2B2B2B',
+        darkgrey: '#2b2b2b',
         chatgreen: '#76ABAE',
         lightgrey: '#3C3C3C',
         chatwhite: '#E5E5E5',
