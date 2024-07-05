@@ -32,20 +32,14 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='bg-none-500 h-full w-full -mr-10 flex items-center justify-end relative'>
-                    {/* <div className={`${searchOpen ? 'w-80 mr-1' : 'w-0 mr-4'} bg-darkgrey h-9 mt-0.5 rounded-3xl absolute flex items-center duration-500`}>
-                        <div className={`${searchOpen ? 'animate-pulse': 'hidden'} ml-3 h-3.5 w-px bg-chatwhite ease-in-out`}></div>
-                        <input type="search" id="default-search" class={`${searchOpen ? 'w-80 mr-1 visible' : 'w-0 mr-4 hidden'} bg-darkgrey w-72 h-1 p-4 ps-0 text-sm visible border-darkgrey`} placeholder="Search For Club" required />
-                    </div> */}
-                    <div className='bg-none-500 h-8 w-full absolute rounded-2xl flex justify-end'>
-                        <div className={`${searchOpen ? 'w-full' : 'w-0'} bg-none-500 h-full mt-0 rounded-2xl duration-0`}>
-                            <div className={`${searchOpen ? '-mr-1' : ''} mr-3.5 bg-darkgrey h-full bg-none-500 flex rounded-2xl items-center relative`}>
-                                <div className={`${searchOpen ? '' : 'hidden'} h-5 w-1 ml-3 bg-chatwhite `}></div>
-                                <div className='bg-none-500 h-full w-72 -ml-1 relative flex items-center'>
-                                    <input type="search" placeholder="Search For Club" className={`${searchOpen ? 'ml-px w-72' : 'hidden'} w-1 -ml-5 bg-darkgrey absolute`} required></input>
-                                </div>
-                            </div>
-                        </div>
+                    <div className='bg-none-500 h-9 w-full mr-2 mt-1 rounded-2xl flex justify-end'>
+                        <input type="search" id="search-club-text" aria-describedby="helper-text-explanation" class={`${searchOpen ? 'h-8' : 'w-0 -pr-2 duration-300'} duration-300 h-8 border text-sm rounded-2xl focus:ring-darkgrey w-full dark:bg-darkgrey dark:border-darkgrey dark:placeholder-chatwhite dark:text-chatwhite`} placeholder="search for club"></input>
                     </div>
+                    {/* <div className={`${searchOpen ? 'duration' : 'w-0 duration-300'} w-full h-7 bg-darkgrey relative flex rounded-2xl mr-1 items-center gap-0.5`}>
+                        <div className={`${searchOpen ? '' : 'hidden'} w-px ml-3.5 h-4 relative bg-chatwhite`}></div>
+                        <input className={`${searchOpen ? '' : 'hidden'} bg-darkgrey -ml-0.5 -mt-0 w-72 h-5 relative flex items-center text-opacity-10`} placeholder='search for club'></input>
+                    </div> */}
+                   
                 </div>
                 <div className='bg-none-500 h-full p-1 flex items-center justify-end gap-6'>
                     <div className='bg--500 h-6 w-6 hover: cursor-pointer relative'>
